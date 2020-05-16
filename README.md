@@ -46,6 +46,22 @@
 	- 迪米特法则又叫最少知道原则，即一个类对自己依赖的类知道的越少越好。也就是说对于被依赖的类不管多么复杂，都尽量将逻辑封装在类的内部。对外除了提供的public方法，不对外泄露任何信息
 	- 迪米特法则还有一个更简单的定义：只与直接的朋友通信
 	- **直接的朋友**：每个对象都会与其他对象有耦合关系，只要两个对象之间有耦合关系，我们就说这两个对象之间是朋友关系。耦合的方式很多，依赖，关联，组合，聚合等。其中我们称出现成员变量，方法参数，方法返回值中的类为直接朋友，而出现在局部变量中的类不是直接的朋友。也就是说，陌生的类最好不要以局部变量的形式出现在类的内部。
-	
 
+- 合成复用原则
+	- 原则是尽量使用合成/聚合的方式，而不是使用继承
+
+![](https://gitee.com/itgoyo/PicGoRes/raw/master/img/设计模式.png) 
+ 
+# UML --Unified modeling language (统一建模语言)
+- Note 注释
+- Class 表示类，可以添加属性和方法
+- Interface 表示接口
+- Denpendency 表示依赖
+- Association 表示关联
+- Generalization 表示泛化（继承）
+- Realization 表示实现
+- Aggregation 表示聚合
+- Composite 组合
+
+![](https://gitee.com/itgoyo/PicGoRes/raw/master/img/20200516102048.png)
 
